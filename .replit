@@ -15,6 +15,10 @@ localPort = 5000
 externalPort = 80
 
 [[ports]]
+localPort = 35015
+externalPort = 3002
+
+[[ports]]
 localPort = 42569
 externalPort = 3000
 
@@ -50,3 +54,6 @@ waitForPort = 5000
 
 [userenv.shared]
 JWT_SECRET = "minecraft-bot-manager-secret-jwt-key-2024-change-in-production-d8f7a9b6c4e2"
+
+[agent]
+integrations = ["github:1.0.0"]
